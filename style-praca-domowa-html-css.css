@@ -112,14 +112,32 @@ a {
 
 .menu-button-space {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   list-style-type: none;
   margin: 0 2%;
   margin-bottom: 0%;
+  padding-right: 5%;
 }
 
-.menu-button-space > a {
+#menu-button-bolded {
+  font-weight: 900;
+}
+
+#menu-button-bolded-margin {
+  margin-top: 10%;
+  font-weight: 900;
+}
+
+#menu-wrap-icons {
+  margin-top: 40%;
+}
+
+#menu-wrap-icons > a {
+  margin-left: 10%;
+}
+
+.menu-list-link {
   font-weight: 300;
   font-size: 19.2px;
   line-height: 28.8px;
@@ -167,6 +185,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  padding-top: 10%;
   top: 8%;
   right: -100%;
   background-color: #222426;
@@ -476,8 +495,6 @@ form input {
 }
 
 form select {
-  appearance: none;
-  background-color: transparent;
   border: 2px solid #000;
   height: 58.5px;
   border-radius: 0;
@@ -598,20 +615,21 @@ p {
   .main-container-2 {
     flex-direction: column;
     width: 100%;
-    height: 10%;
+    height: 15%;
     padding: 0 3%;
   }
 
   .main-container-3 {
     flex-direction: column;
     width: 100%;
-    height: 18%;
+    height: 20%;
     padding: 0 3%;
   }
 
   .main-container-4 {
     flex-direction: column;
     width: 100%;
+    height: 40%;
     padding: 0 3%;
   }
 
@@ -657,6 +675,7 @@ p {
     flex-direction: column;
     padding-right: 0;
     margin-bottom: 18%;
+    height: 25%;
   }
 
   .sign-up-buttons > button {
@@ -702,6 +721,7 @@ p {
     line-height: 76px;
     letter-spacing: -0.02em;
     padding-right: 0%;
+    margin-top: 15%;
   }
 
   .container2-left-bot {
@@ -709,6 +729,7 @@ p {
     line-height: 30px;
     letter-spacing: -0.5px;
     padding-right: 0%;
+    margin-top: 20%;
   }
 
   .container2-mid {
@@ -720,7 +741,7 @@ p {
   }
 
   .container2-mid > img {
-    margin-bottom: 10%;
+    margin-bottom: 0%;
   }
 
   .container2-right {
